@@ -47,7 +47,7 @@ df['time'] = df['time'] / n * duration
 
 # df.plot()
 # plt.show()
-# df.to_csv('testdatagen3.txt', index = False, header = False)
+df.to_csv('double_sinus.txt', index = False, header = False)
 
 dfg = df.groupby(['time'])
 
